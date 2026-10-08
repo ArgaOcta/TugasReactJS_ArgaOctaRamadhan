@@ -34,7 +34,6 @@ Pada pertemuan kedua website OCBOOK dikembangkan dengan menambahkan React Router
 
 Routing yang digunakan:
 - `/` → Home
-- `/book` → Book
 - `/team` → Team
 - `/contact` → Contact
 
