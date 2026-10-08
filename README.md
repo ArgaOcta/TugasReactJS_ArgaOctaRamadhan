@@ -1,16 +1,56 @@
-# React + Vite
+# Tugas React JS - Arga Octa Ramadhan
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repository tugas Fullstack Web Developer menggunakan React JS dan React Router.
 
-Currently, two official plugins are available:
+## Daftar Tugas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+| Pertemuan | Materi | Tanggal | Branch |
+|---|---|---|---|
+| Pertemuan 1 | React JS | 7 Oktober 2026 | `tugas-reactjs` |
+| Pertemuan 2 | React Router | 8 Oktober 2026 | `tugas-react-router` |
 
-## React Compiler
+## Pertemuan 1 - React JS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Tanggal:** 7 Oktober 2026  
+**Branch:** `tugas-reactjs`
 
-## Expanding the ESLint configuration
+Pada pertemuan pertama dibuat website bookstore **OCBOOK** menggunakan React JS dan Bootstrap.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Fitur yang dibuat:
+- Home
+- Book Collection
+- Team
+- Contact
+- Navbar
+- Footer
+- Responsive layout menggunakan Bootstrap
+
+## Pertemuan 2 - React Router
+
+**Tanggal:** 8 Oktober 2026  
+**Branch:** `tugas-react-router`
+
+Pada pertemuan kedua website OCBOOK dikembangkan dengan menambahkan React Router untuk navigasi antar halaman.
+
+Routing yang digunakan:
+- `/` → Home
+- `/book` → Book
+- `/team` → Team
+- `/contact` → Contact
+
+Navigasi menggunakan `NavLink` dengan styling untuk menunjukkan halaman yang sedang aktif.
+
+## Teknologi
+
+- React JS
+- Vite
+- React Router DOM
+- Bootstrap
+- JavaScript
+- HTML
+- CSS
+
+## Author
+
+**Arga Octa Ramadhan**  
+NIM: 0110224165
