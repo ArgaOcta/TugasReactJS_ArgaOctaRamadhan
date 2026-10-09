@@ -2,6 +2,7 @@ import { Link, NavLink, Route, Routes } from "react-router-dom";
 import Home from "./pages/home";
 import Team from "./pages/team";
 import Contact from "./pages/contact";
+import Book from "./pages/book"; 
 
 function App() {
   const navStyle = ({ isActive }) => ({
@@ -68,16 +69,13 @@ function App() {
               </li>
 
               <li>
-                <Link
-                  to="/#book"
+                <NavLink
+                  to="/book"
                   className="nav-link px-2"
-                  style={{
-                    color: 'rgb(0, 74, 133)',
-                    fontWeight: '600',
-                  }}
+                  style={navStyle}
                 >
                   Book
-                </Link>
+                </NavLink>
               </li>
 
               <li>
@@ -170,6 +168,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/team" element={<Team />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/book" element={<Book />} />
       </Routes>
 
       {/* Footer */}
